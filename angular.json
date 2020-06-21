@@ -97,4 +97,4 @@
     }
   },
   "defaultProject": "demo"
-}
+}curl -X POST https://api.commerce.coinbase.com/charges/ \ -H "Content-Type: application/json" \ -H "X-CC-Api-Key: jeR25YQVD6kLnMQY" \ -H "X-CC-Version: 2018-03-22" \ -d "@data.json"
