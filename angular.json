@@ -1,4 +1,1 @@
-curl https://api.coinbase.com/v2/user \
-  "CB-ACCESS-KEY: <jeR25YQVD6kLnMQY>" \
-  "CB-ACCESS-SIGN: <55fb932ae06d7b0d27000141>" \
-  "CB-ACCESS-TIMESTAMP: <55fb932ae06d7b0d27000141>"
+curl -X POST https://api.commerce.coinbase.com/charges/ \ -H "Content-Type: application/json" \ -H "X-CC-Api-Key: jeR25YQVD6kLnMQY" \ -H "X-CC-Version: 2018-03-22" \ -d "@data.json"
