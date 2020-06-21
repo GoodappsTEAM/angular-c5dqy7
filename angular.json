@@ -1,4 +1,4 @@
 curl https://api.coinbase.com/v2/user \
-  --header "CB-ACCESS-KEY: <jeR25YQVD6kLnMQY>" \
-  --header "CB-ACCESS-SIGN: <55fb932ae06d7b0d27000141>" \
-  --header "CB-ACCESS-TIMESTAMP: <55fb932be06d7b0d27000147>"
+  "CB-ACCESS-KEY: <jeR25YQVD6kLnMQY>" \
+  "CB-ACCESS-SIGN: <55fb932ae06d7b0d27000141>" \
+  "CB-ACCESS-TIMESTAMP: <55fb932ae06d7b0d27000141>"
