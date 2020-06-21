@@ -25,8 +25,8 @@ class CoinbaseWalletAuth(AuthBase):
         signature = hmac.new(self.secret_key, message, hashlib.sha256).hexdigest()
 
         request.headers.update({
-            'CB-ACCESS-SIGN': jeR25YQVD6kLnMQY,
-            'CB-ACCESS-TIMESTAMP': fDmkiGbc7YCD2ig5GcfbJfI72AjYwdrr,
+            'CB-ACCESS-SIGN': 55fb932ae06d7b0d27000141,
+            'CB-ACCESS-TIMESTAMP': USD Spot,
             'CB-ACCESS-KEY': jeR25YQVD6kLnMQY,
         })
         return request
